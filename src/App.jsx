@@ -5,6 +5,7 @@ import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
 import AvailablePlayers from './components/AvailablePlayers/AvailablePlayers';
 import Newsletter from './components/Newsletter/Newsletter';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [freeCoins, setFreeCoins] = useState(0);
@@ -20,6 +21,7 @@ function App() {
       <Banner handleFreeCoins={handleFreeCoins}></Banner>
       <AvailablePlayers></AvailablePlayers>
       <Newsletter></Newsletter>
+      <Footer></Footer>
 
     </>
   )
