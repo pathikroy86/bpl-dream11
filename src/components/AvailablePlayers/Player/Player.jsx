@@ -3,7 +3,7 @@ import './player.css';
 import { CgProfile } from "react-icons/cg";
 import { GrFlag } from "react-icons/gr";
 
-const Player = ({ player, handleSelected, handleSelectedPlayers }) => {
+const Player = ({ player, handleSelected, handleSelectedPlayers, handleFreeCoins }) => {
     const { id, name, country, playingStyle, value, avatar } = player;
     return (
         <div>
@@ -18,7 +18,7 @@ const Player = ({ player, handleSelected, handleSelectedPlayers }) => {
             <p className='mb-2'>{playingStyle}</p>
             <div className='flex justify-between items-center'>
                 <p>Price: <span>{value}</span></p>
-                <button onClick={() => { handleSelected(); handleSelectedPlayers(player, id); }} className='btn text-[#131313] text-xs'>Choose Player</button>
+                <button onClick={() => { handleSelected(); handleSelectedPlayers(player); handleFreeCoins(0, value) }} className='btn text-[#131313] text-xs'>Choose Player</button>
             </div>
         </div>
     );

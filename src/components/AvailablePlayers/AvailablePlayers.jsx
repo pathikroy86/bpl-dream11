@@ -5,7 +5,7 @@ import SelectedPlayers from '../SelectedPlayers/SelectedPlayers';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const AvailablePlayers = () => {
+const AvailablePlayers = ({ handleFreeCoins }) => {
 
     const [players, setPlayers] = useState([]);
     useEffect(() => {
@@ -25,7 +25,7 @@ const AvailablePlayers = () => {
         }
     }
 
-    const handleSelectedPlayers = (player, id) => {
+    const handleSelectedPlayers = (player) => {
         const newArr = [...selected, player];
         if (newArr.length <= 6) {
             setSelected(newArr);
@@ -63,6 +63,7 @@ const AvailablePlayers = () => {
                                 player={player}
                                 handleSelected={handleSelected}
                                 handleSelectedPlayers={handleSelectedPlayers}
+                                handleFreeCoins={handleFreeCoins}
                             ></Player>)
                         }
                     </div>
