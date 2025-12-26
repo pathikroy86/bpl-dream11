@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar'
 import AvailablePlayers from './components/AvailablePlayers/AvailablePlayers';
 import Newsletter from './components/Newsletter/Newsletter';
 import Footer from './components/Footer/Footer';
+import { ToastContainer, toast } from 'react-toastify';
 
 function App() {
   const [freeCoins, setFreeCoins] = useState(0);

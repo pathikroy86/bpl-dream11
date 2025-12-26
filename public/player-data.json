@@ -4,7 +4,7 @@
     "name": "Arjun Malhotra",
     "country": "India",
     "playingStyle": "Right-hand Batsman",
-    "value": 850000,
+    "value": 85000,
     "avatar": "https://randomuser.me/api/portraits/men/11.jpg"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Daniel Brooks",
     "country": "England",
     "playingStyle": "Left-hand Batsman",
-    "value": 720000,
+    "value": 72000,
     "avatar": "https://randomuser.me/api/portraits/men/22.jpg"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Kane Rutherford",
     "country": "New Zealand",
     "playingStyle": "All-Rounder",
-    "value": 910000,
+    "value": 91000,
     "avatar": "https://randomuser.me/api/portraits/men/33.jpg"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Marcus Silva",
     "country": "Australia",
     "playingStyle": "Fast Bowler",
-    "value": 880000,
+    "value": 88000,
     "avatar": "https://randomuser.me/api/portraits/men/44.jpg"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Rashid Khanal",
     "country": "Afghanistan",
     "playingStyle": "Leg Spin Bowler",
-    "value": 790000,
+    "value": 79000,
     "avatar": "https://randomuser.me/api/portraits/men/55.jpg"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Thabo Mbeki",
     "country": "South Africa",
     "playingStyle": "Middle Order Batsman",
-    "value": 670000,
+    "value": 67000,
     "avatar": "https://randomuser.me/api/portraits/men/66.jpg"
   },
   {
@@ -52,7 +52,7 @@
     "name": "Carlos Mendes",
     "country": "West Indies",
     "playingStyle": "Power Hitter",
-    "value": 740000,
+    "value": 74000,
     "avatar": "https://randomuser.me/api/portraits/men/77.jpg"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Imran Siddiqui",
     "country": "Pakistan",
     "playingStyle": "Swing Bowler",
-    "value": 830000,
+    "value": 83000,
     "avatar": "https://randomuser.me/api/portraits/men/88.jpg"
   },
   {
@@ -68,7 +68,7 @@
     "name": "Hashan Perera",
     "country": "Sri Lanka",
     "playingStyle": "Top Order Batsman",
-    "value": 610000,
+    "value": 61000,
     "avatar": "https://randomuser.me/api/portraits/men/99.jpg"
   },
   {
@@ -76,7 +76,7 @@
     "name": "Ryan Cooper",
     "country": "USA",
     "playingStyle": "Wicket Keeper",
-    "value": 520000,
+    "value": 52000,
     "avatar": "https://randomuser.me/api/portraits/men/12.jpg"
   },
   {
@@ -84,7 +84,7 @@
     "name": "Farhan Akhtar",
     "country": "Bangladesh",
     "playingStyle": "Off Spin Bowler",
-    "value": 590000,
+    "value": 59000,
     "avatar": "https://randomuser.me/api/portraits/men/23.jpg"
   },
   {
@@ -92,7 +92,7 @@
     "name": "Lucas Pereira",
     "country": "Brazil",
     "playingStyle": "All-Rounder",
-    "value": 480000,
+    "value": 48000,
     "avatar": "https://randomuser.me/api/portraits/men/34.jpg"
   }
 ]
